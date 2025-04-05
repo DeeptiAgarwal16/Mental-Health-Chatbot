@@ -6,5 +6,4 @@ matplotlib
 audio-recorder-streamlit
 python-dotenv
 pyaudio 
-speech_recognition 
 gtts
