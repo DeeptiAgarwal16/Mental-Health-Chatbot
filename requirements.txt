@@ -5,5 +5,4 @@ pandas
 matplotlib
 audio-recorder-streamlit
 python-dotenv
-pyaudio 
 gtts
