@@ -306,7 +306,7 @@ load_dotenv()
 def setup_genai():
     try:
         # In a real app, use st.secrets or environment variables
-        api_key = os.getenv("GOOGLE_API_KEY", "AIzaSyD_F27PQ1SYRR6X8X1gvMtPzBnEmwIxviU")
+        api_key = os.getenv("GOOGLE_API_KEY")
         genai.configure(api_key=api_key)
         return genai.GenerativeModel('gemini-1.5-pro')
     except Exception as e:
